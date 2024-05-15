@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="src/img/ico.png" type="image/x-icon">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/media-query.css">
     <title>Login</title>
@@ -15,8 +16,20 @@
             <div class="form">
                 <h1>Login</h1>
                 <p>Faça o login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="" method="post">
+                <form action="" method="post" autocomplete="on">
+                    <div class="campo">
+                        <!-- <label for="ilogin">Login</label> -->
+                        <ion-icon name="person"></ion-icon>
+                        <input type="text" name="login" id="ilogin" placeholder="Seu e-mail" required autocomplete="email" maxlength="30">
+                    </div>
 
+                    <div class="campo">
+                        <!-- <label for="isenha">Senha</label> -->
+                        <ion-icon name="lock"></ion-icon>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" required autocomplete="current-password" minlength="8" maxlength="20">
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="#" class="esqueci">Esqueci minha senha</a>
                 </form>
             </div>
         </section>
