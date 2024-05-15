@@ -1,0 +1,54 @@
+/* Typical Device Breakpoints
+-----------------------------
+Pequenas Telas : até 600px
+Celular : 600px até 768px
+Tablet : 768px até 992px
+Desktop : 992px até 1200px
+Grandes Telas : acima de 1200px
+ */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: url(../img/background.png);
+    }
+
+    .login {
+        width: 90vw;
+    }
+
+    .login .imagem {
+        background-image: url(../img/rx7-retrato-white.png);
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    .login .form {
+        float: right;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: url(../img/background.png);
+    }
+
+    .login {
+        width: 950px;
+    }
+
+    .login .imagem {
+        background-image: url(../img/rx7-retrato-white.png);
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    .login .form {
+        float: right;
+        width: 60%;
+    }
+}
