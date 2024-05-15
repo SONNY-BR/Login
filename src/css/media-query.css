@@ -61,7 +61,7 @@ Grandes Telas : acima de 1200px
 @media screen and (min-width: 992px) {
 
     body {
-        background-image: url(../img/background.png);
+        background-image: url(../img/background-2.png);
     }
 
     .login {
