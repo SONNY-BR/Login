@@ -21,6 +21,7 @@ Grandes Telas : acima de 1200px
 
     .login .imagem {
         background-image: url(../img/rx7-retrato-white.png);
+        background-position: center;
         float: left;
         width: 40%;
         height: 100%;
