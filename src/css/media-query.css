@@ -7,6 +7,7 @@ Desktop : 992px até 1200px
 Grandes Telas : acima de 1200px
  */
 
+ /* Configuração para Tablet	 */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
@@ -15,6 +16,7 @@ Grandes Telas : acima de 1200px
 
     .login {
         width: 90vw;
+        display: flex;
     }
 
     .login .imagem {
@@ -27,6 +29,31 @@ Grandes Telas : acima de 1200px
     .login .form {
         float: right;
         width: 60%;
+    }
+
+    .form h1 {
+        font-size: 2em;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .form p {
+        font-size: 1.5em;
+        margin-bottom: 25px;
+    }
+
+    .campo {
+        height: 42.5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .campo input {
+        font-size: 1.1em;
+        width: 60%;
+    }
+
+    .form input[type=submit] {
+        width: 55%;
     }
 }
 
@@ -54,9 +81,26 @@ Grandes Telas : acima de 1200px
 
     .form h1 {
         font-size: 2em;
+        margin: 20px 0px 20px 0px;
     }
 
     .form p {
-        font-size: 1.2em;
+        font-size: 1.5em;
+        margin-bottom: 25px;
+    }
+
+    .campo {
+        height: 42.5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .campo input {
+        font-size: 1.1em;
+        width: 80%;
+    }
+
+    .form input[type=submit] {
+        width: 50%;
     }
 }
