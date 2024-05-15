@@ -30,8 +30,8 @@ main {
 
 .login {
     background-color: rgba(255, 255, 255, 0.750);
-    width: 400px;
-    height: 600px;
+    width: 300px;
+    height: 500px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -45,7 +45,7 @@ main {
 }
 
 .login .imagem {
-    background: url(../img/rx7-white-redimencionado.png) no-repeat;
+    background: url(../img/rx7-white-redimencionado-2.png) no-repeat;
     height: 200px;
     background-size: cover;
     background-position: center bottom;
